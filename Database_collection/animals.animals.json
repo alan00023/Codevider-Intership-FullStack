@@ -1,0 +1,157 @@
+[{
+  "_id": {
+    "$oid": "665858f1cad31afc5ab4c5ea"
+  },
+  "type": "cats",
+  "image": "https://catslimited.com/wp-content/uploads/2024/02/cat-memorials-banner2.png",
+  "description": "Fierce cat",
+  "colors": [
+    "Brown",
+    "black"
+  ],
+  "temperament": "Fierce",
+  "origin": "Scotland",
+  "name": "Shadow",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665859eacad31afc5ab4c5f1"
+  },
+  "type": "cats",
+  "image": "https://yt3.googleusercontent.com/4MVwrZtTatz-pev4yq-ix5469cCqLMsHlHp6_2XXr2pyCIzsHV1xknrya7oSvFD11NvNvU14VQ=s900-c-k-c0x00ffffff-no-rj",
+  "description": "Friendly cat",
+  "colors": [
+    "black",
+    "white"
+  ],
+  "temperament": "Mild",
+  "origin": "Italy",
+  "name": "Luna",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66585bb954825916fef306d7"
+  },
+  "type": "cats",
+  "image": "https://yt3.googleusercontent.com/BzR36mv79SAx7oUUION2cH4yf20XYahcna7TOERnba-fCFoWn-H6mZb8K-Jvps9nlgvXWrIL6g=s900-c-k-c0x00ffffff-no-rj",
+  "description": "Playfully ",
+  "colors": [
+    "Gray"
+  ],
+  "temperament": "Mischef",
+  "origin": "British",
+  "name": "Nala",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66585d2d54825916fef306ee"
+  },
+  "type": "dogs",
+  "lifespan": "10 - 15 years",
+  "size": "Big",
+  "breed_group": "Belgian Shepard",
+  "image": "https://rudarickennels.co.za/wp-content/uploads/2021/08/gsd-male-knox.jpg",
+  "description": "Beautifully black fur ",
+  "colors": [
+    "black",
+    "brown"
+  ],
+  "temperament": "Cuddely",
+  "origin": "Belgium",
+  "name": "Charli",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66585dfa54825916fef3070a"
+  },
+  "type": "dogs",
+  "lifespan": "12 - 17 years",
+  "size": "Medium",
+  "breed_group": "Labrador Retriever",
+  "image": "https://images.fineartamerica.com/images-medium-large-5/3-portrait-of-a-yellow-labrador-dog-animal-images.jpg",
+  "description": "Best girl",
+  "colors": [
+    "Golden",
+    "brown"
+  ],
+  "temperament": "Playfull",
+  "origin": "Finland",
+  "name": "Sadie",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66585e9954825916fef30713"
+  },
+  "type": "dogs",
+  "lifespan": "10 years",
+  "size": "small",
+  "breed_group": "Poodle",
+  "image": "https://yt3.googleusercontent.com/AJd6KTEA4xMNhMbZSrTXK5oq7uep9CAUgTjOuP6KLyPBijHlmn6t1-JX1Sr9J4XDJFCh2l0C=s900-c-k-c0x00ffffff-no-rj",
+  "description": "Cute dog",
+  "colors": [
+    "brown"
+  ],
+  "temperament": "Moody",
+  "origin": "England",
+  "name": "Chloe",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658618b54825916fef30726"
+  },
+  "type": "birds",
+  "weight_kg": 0.03,
+  "diet": "seeds",
+  "place_of_found": "India ",
+  "habitat": "tropical and subtropical regions ",
+  "family": "Psittacidae",
+  "species": "Parakeet (Budgerigar)",
+  "image": "https://imageio.forbes.com/blogs-images/grrlscientist/files/2017/10/GreenBudgerigarSQUARE.jpg?format=jpg&height=900&width=1600&fit=bounds",
+  "description": "A small, colorful bird that is very popular as a pet due to its playful nature and ability to mimic speech.",
+  "colors": [],
+  "name": "Kevin",
+  "__v": 0,
+  "height_cm": 27
+},
+{
+  "_id": {
+    "$oid": "66599645595b84a0d8b692e5"
+  },
+  "type": "birds",
+  "diet": "dark, leafy greens",
+  "place_of_found": "Australia",
+  "habitat": "arid or semi-arid country",
+  "family": " Nymphicinae",
+  "species": "Cockatiel",
+  "image": "https://images.fineartamerica.com/images-medium-large-5/yellow-cockatiel-vijay-sonar.jpg",
+  "description": "Known for their friendly and gentle nature, they have a distinctive crest on their head and can be quite vocal.",
+  "colors": [],
+  "name": "Sunny",
+  "__v": 0,
+  "weight_kg": 0.06,
+  "height_cm": 107
+},
+{
+  "_id": {
+    "$oid": "66599732595b84a0d8b692eb"
+  },
+  "type": "birds",
+  "height_cm": 110,
+  "diet": "unripe fruits, nuts and seeds, flowers, leaves",
+  "place_of_found": "Mexico",
+  "habitat": "tall, deciduous trees in forests and near rivers",
+  "family": "Parrots",
+  "species": "Macaw",
+  "image": "https://imageio.forbes.com/blogs-images/grrlscientist/files/2016/02/Ara_chloroptera_-upper_body-4-1200x1200.jpg?format=jpg&height=900&width=1600&fit=bounds",
+  "description": "Large, colorful parrots known for their intelligence and long lifespan. They require a lot of interaction and space.",
+  "colors": [],
+  "name": "Gizmo",
+  "__v": 0,
+  "weight_kg": 0.8
+}]

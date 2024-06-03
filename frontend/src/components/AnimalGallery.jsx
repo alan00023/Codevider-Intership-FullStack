@@ -3,8 +3,11 @@ import { useParams } from "react-router-dom";
 import AnimalCard from "./AnimalCard";
 
 const AnimalGallery = () => {
+  //state to store the animals based on the type
   const { type } = useParams();
+  //state to store the search term
   const [animals, setAnimals] = useState([]);
+  //state to store the search term
   const [searchTerm, setSearchTerm] = useState("");
 
   //external API call to fetch the animals based on the type
