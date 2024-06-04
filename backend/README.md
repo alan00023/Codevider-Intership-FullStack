@@ -24,38 +24,71 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository .
 
-## Installation
+## Database Connection
+
+Create a .env file where inside there you create the connection example 
+```json
+  MONGODB_URI=mongodb://localhost:27017/animals
+```
+Do not forget to add the collection to your database as well (it is given in the folder Database_collection)
+
+
+## Installation needed to run the website
 
 ```bash
-$ npm install
+$ npm init -y
 ```
 
-## Running the app
+## Installing the node packs needed 
 
 ```bash
-# development
-$ npm run start
+npm install @nestjs/common@^10.3.9 @nestjs/core@^10.3.9 @nestjs/platform-express@^10.3.9 @nestjs/config@^3.2.2 @nestjs/mongoose@^10.0.6 mongoose@^8.4.1 class-validator@^0.14.1 class-transformer@^0.5.1 @nestjs/mapped-types@^2.0.5 --legacy-peer-deps
+npm install --save-dev typescript@^5.1.3 @nestjs/cli@^9.0.0 @nestjs/schematics@^9.0.0 @nestjs/testing@^9.0.0 @types/node@^20.3.1 ts-loader@^9.4.2 --legacy-peer-deps
+npm install reflect-metadata@^0.1.13 rxjs@^7.8.1 --legacy-peer-deps
 
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
 ```
 
-## Test
+## Package.json should look like this
+```json
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "NestJS backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "build": "nest build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^10.3.9",
+    "@nestjs/core": "^10.3.9",
+    "@nestjs/platform-express": "^10.3.9",
+    "@nestjs/config": "^3.2.2",
+    "@nestjs/mongoose": "^10.0.6",
+    "mongoose": "^8.4.1",
+    "class-validator": "^0.14.1",
+    "class-transformer": "^0.5.1",
+    "@nestjs/mapped-types": "^2.0.5",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.3",
+    "@nestjs/cli": "^9.0.0",
+    "@nestjs/schematics": "^9.0.0",
+    "@nestjs/testing": "^9.0.0",
+    "@types/node": "^20.3.1",
+    "ts-loader": "^9.4.2"
+  }
+}
 
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
 ```
 
 ## Support
