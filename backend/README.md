@@ -49,6 +49,11 @@ npm install --save-dev typescript@^5.1.3 @nestjs/cli@^9.0.0 @nestjs/schematics@^
 npm install reflect-metadata@^0.1.13 rxjs@^7.8.1 --legacy-peer-deps
 
 ```
+## Then start the backend
+
+```bash
+npm start 
+```
 
 ## Package.json should look like this
 ```json
